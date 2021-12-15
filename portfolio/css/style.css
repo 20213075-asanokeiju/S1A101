@@ -358,8 +358,26 @@ li {
   margin-right: 20px;
 }
 
+.skill-img1 { animation: Destiny 2s ease-in-out infinite alternate; }
+
+/*キーフレーム*/
+@keyframes Destiny {
+  0% {transform: scaleX(0);}
+  100% {transform: scaleX(1);}
+}
+.skill-img2 { animation: Vtuber 2s ease-in-out infinite alternate; }
+
+/*キーフレーム*/
+@keyframes Vtuber {
+  0% {transform: scaleX(0);}
+  0% {background-color: #A0A;}
+  100% {background-color: #A0A;}
+  100% {transform: scaleX(1);}
+}
+
+
 .skill-body {
-  flex: 1;
+  flex:1;
 }
 
 .skill-name {
