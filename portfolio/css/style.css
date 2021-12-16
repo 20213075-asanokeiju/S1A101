@@ -358,23 +358,35 @@ li {
   margin-right: 20px;
 }
 
-.skill-img1 { animation: Destiny 2s ease-in-out infinite alternate; }
+.skill-img1 { animation: Destiny 3s ease-in-out infinite alternate; }
 
 /*キーフレーム*/
 @keyframes Destiny {
-  0% {transform: scaleX(0);}
-  100% {transform: scaleX(1);}
+  0% {transform: scaleX(1);}
+  100% {transform: scaleX(0);}
 }
-.skill-img2 { animation: Vtuber 2s ease-in-out infinite alternate; }
+.skill-img2 { animation: Vtuber 6s ease-in-out infinite alternate; }
 
 /*キーフレーム*/
 @keyframes Vtuber {
-  0% {transform: scaleX(0);}
   0% {background-color: #A0A;}
-  100% {background-color: #A0A;}
+  50% {background-color: #A0A;}
+  
+  0%{transform:scaleX(0) ;}
+  0%{transform: scale(1, 1);}
   100% {transform: scaleX(1);}
+  100%{transform: scale(-1, 1);}
 }
+.skill-img4 { animation: Smash 6s ease-in-out infinite alternate; }
+.skill-img4 {width: 60px; height: auto;}
 
+/*キーフレーム*/
+@keyframes Smash {
+  0%{transform:scaleX(0) ;}
+  0%{transform: scale(1, 1);}
+  100% {transform: scaleX(1);}
+  100%{transform: scale(-1, 1);}
+}
 
 .skill-body {
   flex:1;
