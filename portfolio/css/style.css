@@ -159,6 +159,7 @@ li {
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
+  color: #fff;
 }
 .main-visual-subtitle {
   font-size: 20px;
@@ -166,6 +167,7 @@ li {
   line-height: 1;
   margin-bottom: 20px;
   letter-spacing: .08em;
+  color: #fff;
 }
 .main-visual-gurdian {
   font-size: 30px;
@@ -173,6 +175,7 @@ li {
   line-height: 1;
   margin-bottom: 20px;
   letter-spacing: .08em;
+  color: #fff;
 }
 .main-visual-profile{
   display: flex;
@@ -394,6 +397,9 @@ li {
 .skill-img4 { animation: Smash 6s ease-in-out infinite alternate; }
 .skill-img4 {width: 60px; height: auto;}
 
+.skill-img5 { animation: Smash 6s ease-in-out infinite alternate; }
+.skill-img5 {width: 60px; height: auto;}
+
 /*キーフレーム*/
 @keyframes Smash {
   0%{transform:scaleX(0) ;}
@@ -408,6 +414,11 @@ li {
 
 .skill-name {
   margin-bottom: 3px;
+  color: #fff;
+}
+
+.skill-text {
+  color: #fff;
 }
 
 /*--------------------------------
@@ -542,6 +553,7 @@ li {
   .title {
     font-size: 26px;
     margin-bottom: 20px;
+    color: #fff;
   }
 
   /* レイアウト */
@@ -663,4 +675,31 @@ li {
     padding: 50px 0;
   }
 }
+
+#video-area {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+#video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 177.77777778vh;
+  height: 56.25vw;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+
+
+
+
+
+
 
