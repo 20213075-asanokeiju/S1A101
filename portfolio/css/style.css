@@ -44,13 +44,14 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  
 }
 
 .inner {
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 40px;
+  
 }
 
 /*--------------------------------
@@ -199,6 +200,7 @@ li {
 
 .main-visual-text {
   flex: 1;
+  color: #fff;
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
@@ -218,10 +220,12 @@ li {
   margin-right: 1.58730%;
   margin-bottom: 40px;
   color: #333;
+  
 }
 
 .works-img img {
   border: 1px solid #e6e6e6;
+  
 }
 
 .btn-denim {
@@ -695,7 +699,11 @@ li {
   min-height: 100%;
   min-width: 100%;
 }
-
+.main-visual-title-img1{
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+}
 
 
 
